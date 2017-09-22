@@ -4,7 +4,11 @@
 # Created by Andrew Voss
 
 # wip
+
 # works for 1-100
+
+total = 0 # Running total
+wordNumbers = 99 # Variable number to get number of letters in word form
 
 # list number of letters in word
 ones = ['',3,3,5,4,4,3,5,5,4] # numbers 1-9 list
@@ -35,11 +39,20 @@ def toHundred(x): # def for numbers less then or equal to 100
 def overHundred(x): # wip
 
     hundredsPlace = int(x/100) # number in hundreds place
-    y = x%100
+    y = x % 100
     getLessHundred = toHundred(y)
-    callHundredsPlace = ones[hundredsPlace] + hundred + ones[getLessHundred]
+    callHundredsPlace = ones[hundredsPlace] + hundred + ones[getLessHundred] # line out of range/code may work once this line is fixed
 
     return getLessHundred + callHundredsPlace
 
 print toHundred(99)
-#print overHundred(99)
+
+for x in range (1, 1001):
+    if x <= 100:
+        total += toHundred(x)
+    if 1000 > x > 100:
+        total += overHundred(x)
+    if x == 1000:
+        total += thousand
+
+print total
