@@ -13,9 +13,9 @@ tens = [6,6,5,5,5,7,6,6] # 20-90 tens
 hundred = 7
 thousand = 8
 
-def toHundred(x):
+def toHundred(x): # def for numbers less then or equal to 100
 
-    temp = 1
+    temp = 1 # temp variables, gets reasigned
     temp2 = 1
 
     if x<10:
@@ -23,9 +23,9 @@ def toHundred(x):
     if 10<=x<20:
         return(tenToNineteen[x-10])
     if 20 <= x < 100:
-        if x % 10 == 0:
+        if x % 10 == 0: # tens values 20-90
             return(tens[(x/10)-2])
-        else:
+        else: # values 21-99
             temp = int(x/10)-2
             temp2 = x%10
             return (tens[temp]+ones[temp2])
@@ -34,14 +34,12 @@ def toHundred(x):
 
 def overHundred(x): # wip
 
-
-
     hundredsPlace = int(x/100) # number in hundreds place
     y = x%100
     getLessHundred = toHundred(y)
-    callHundredsPlace = hundred + ones[hundredsPlace]
+    callHundredsPlace = ones[hundredsPlace] + hundred + ones[getLessHundred]
 
     return getLessHundred + callHundredsPlace
 
-print overHundred(99)
-print "ninety nine"
+print toHundred(99)
+#print overHundred(99)
