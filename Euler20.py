@@ -5,7 +5,7 @@
 # main variables
 factor = 100 # factorial number
 x = 1
-total = 1
+total = 1 # running total
 
 while x <= 100:
      total = total * x
@@ -13,5 +13,5 @@ while x <= 100:
 
 x = str(total)
 x = (list(x))
-x = map(int, x)
+x = map(int,x)
 print sum(x)
