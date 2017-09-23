@@ -37,13 +37,16 @@ def toHundred(x): # def for numbers less then or equal to 100
         return (hundred + 3)
 
 def overHundred(x): # wip
-
-    hundredsPlace = int(x/100) # number in hundreds place
-    y = x % 100
-    getLessHundred = toHundred(y)
-    callHundredsPlace = ones[hundredsPlace] + hundred + ones[getLessHundred] # line out of range/code may work once this line is fixed
-
-    return getLessHundred + callHundredsPlace
+    if x % 100 == 0:
+        return ones[x] + hundred
+    if x == 1000:
+        return thousand + 3
+    else:
+        hundredsPlace = int(x/100)
+        lessThenHundred = int(x % 100)
+        hundredsPlace = ones[hundredsPlace]
+        lessThenHundred = toHundred(lessThenHundred)
+        return(hundredsPlace+lessThenHundred+7)
 
 print toHundred(99)
 
