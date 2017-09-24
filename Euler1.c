@@ -2,7 +2,7 @@
  * Euler 1
  * https://projecteuler.net/problem=1
  * Created by Andrew Voss
- * */
+ */
 
 // Problems
 // Need to write for loop instead of while (while adds one extra cycle)
