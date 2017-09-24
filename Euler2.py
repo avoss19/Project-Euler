@@ -4,10 +4,9 @@
 
 # define variables
 MAX = 4e6 # Fibonacci max value
-x1 = 1
-x2 = 2
-temp = 0
-total = 0
+x1 = 1 # first fibonacci number
+x2 = 2 # second fibonacci
+temp = total = 0
 
 # Fibonacci
 while x1 < MAX:
