@@ -9,8 +9,8 @@
 
 
 #include <stdio.h>
-#define MAX 1000 // Max value, number to find multiples of 3 and 5
 
+#define MAX 1000 // Max value, number to find multiples of 3 and 5
 
 int main()
 {
