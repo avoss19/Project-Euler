@@ -30,5 +30,6 @@ int main()
   for (count5 = 0; count5 < MAX; count5 = count5 + 5)
       total5 = count5 + total5;
 
+  // prints the final total of the multiples of 3 & 5 w/out duplicate multiples
   printf("%d\n", total3 + total5 - doubles);
 }
