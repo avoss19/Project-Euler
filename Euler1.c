@@ -4,10 +4,6 @@
  * Created by Andrew Voss
  */
 
-// Problems
-// Need to write for loop instead of while (while adds one extra cycle)
-
-
 #include <stdio.h>
 
 #define MAX 1000 // Max value, number to find multiples of 3 and 5
