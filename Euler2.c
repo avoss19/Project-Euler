@@ -11,20 +11,22 @@
 
 int main()
 {
-  int x1, x2, temp, total, EvenOrOdd;
+  int x1, x2, temp, total;
   x1 = 1;
   x2 = 2;
   temp = total = 0;
 
+  // Fibonacci
   while (x1 < MAX){
-    EvenOrOdd = x1;
-    if (EvenOrOdd % 2 == 0) {
-      total = total + EvenOrOdd;
+    // add even number fibonacci
+    if (x1 % 2 == 0) {
+      total = total + x1;
     }
+    // add next fibonacci number
     temp = x1;
     x1 = x2;
     x2 = x2 + temp;
   }
 
-  printf("%d\n", total);
+  printf("Solution is: %d\n", total);
 }

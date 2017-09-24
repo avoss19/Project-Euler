@@ -11,9 +11,8 @@ MAX = 4e6 # Max value
 
 # Fibonacci
 while x1 < MAX:
-    EvenOrOdd = x1
-    if EvenOrOdd % 2 == 0:
-        total += EvenOrOdd
+    if x1 % 2 == 0:
+        total += x1
     temp = x1
     x1 = x2
     x2 = x2 + temp
