@@ -12,7 +12,7 @@
 int main()
 {
   int x1, x2, temp, total;
-  x1 = 1; // first fibonacci number
+  x1 = 1; // first fibonacci number (not really, but first need fibonacci number)
   x2 = 2; // second fibonacci
   temp = total = 0;
 
