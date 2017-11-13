@@ -2,6 +2,9 @@
 # https://projecteuler.net/problem=2
 # Created by Andrew Voss
 
+import time
+start_time = time.time()
+
 # define variables
 MAX = 4e6 # Fibonacci max value
 x1 = 1 # first fibonacci number
@@ -19,3 +22,4 @@ while x1 < MAX:
     x2 = x2 + temp
 
 print "Solution is:", total
+print("--- %.8s seconds ---" % (time.time() - start_time))

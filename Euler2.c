@@ -6,11 +6,13 @@
 */
 
 #include <stdio.h>
+#include <time.h>
 
 #define MAX 4e6 // Fibonacci max value
 
 int main()
 {
+  clock_t begin = clock();
   int x1, x2, temp, total;
   x1 = 1; // first fibonacci number
   x2 = 2; // second fibonacci
@@ -29,4 +31,7 @@ int main()
   }
 
   printf("Solution is: %d\n", total);
+  clock_t end = clock();
+  double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
+  printf("--- %f seconds ---\n",time_spent);
 }

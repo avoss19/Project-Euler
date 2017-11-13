@@ -4,6 +4,9 @@
 # Engineering 2 9.3.3
 # Created by Andrew Voss
 
+import time
+start_time = time.time()
+
 # create list for multiples of 3 & 5
 i = 0
 num = []
@@ -28,3 +31,5 @@ a = sum(num1)
 
 # print the sum
 print "Sum of multiples of 3 & 5 below 1000:", a
+
+print("--- %s seconds ---" % (time.time() - start_time))
