@@ -20,7 +20,7 @@ int findNumBruteForce(){
   for(x = 0; x < 1000; x++){
     for(y = 0; y < x; y++){
       for(z = 0; z < y; z++){
-        if(((x + y + z)==1000) && (true)){
+        if(((x + y + z)==1000) && ((x*x)+(y*y)==(z*z))){
           cout << x << " " << y << " " << z << endl;
         }
       }
