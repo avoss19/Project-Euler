@@ -5,11 +5,21 @@ def findFactors(x):
             numberOfDivisor = numberOfDivisor + 1
     return numberOfDivisor
 
-x = 1
+def valuesOfTriangleNums(x):
+    total = 0
+    for i in range(1,x+1):
+        total = total + i
+        i = i + 1
+    return total
 
-while True:
-    temp = findFactors(x)
-    x = x + 1
-    if temp > 5:
-        print x
-        exit()
+def main():
+    x = 1
+    while True:
+        temp1 = valuesOfTriangleNums(x)
+        temp = findFactors(temp1)
+        if temp > 500:
+            print temp1
+            exit()
+        x = x + 1
+
+main()
