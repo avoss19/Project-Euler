@@ -1,3 +1,8 @@
+# Project Euler
+# Problem 4 - Largest palindrome product
+# https://projecteuler.net/problem=4
+# Created by Andrew Voss
+
 def checkPalindrom(x):
     temp = x
     x = str(x)

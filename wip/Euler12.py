@@ -1,3 +1,8 @@
+# Project Euler
+# Problem 12 - Highly divisible triangular number
+# https://projecteuler.net/problem=12
+# Created by Andrew Voss
+
 def findFactors(x):
     numberOfDivisor = 0
     for i in xrange(1,x+1):

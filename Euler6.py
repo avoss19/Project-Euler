@@ -1,7 +1,6 @@
 # Project Euler
 # Problem 6 - Sum square difference
 # https://projecteuler.net/problem=6
-# Engineering 2 9.3.3
 # Created by Andrew Voss
 
 sp = "-" * 40

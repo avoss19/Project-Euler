@@ -1,3 +1,8 @@
+# Project Euler
+# Problem 8 - Largest product in a series
+# https://projecteuler.net/problem=8
+# Created by Andrew Voss
+
 number = "\
 73167176531330624919225119674426574742355349194934\
 96983520312774506326239578318016984801869478851843\

@@ -1,3 +1,10 @@
+/*
+ * Project Euler
+ * Problem 7 - 10001st prime
+ * https://projecteuler.net/problem=7
+ * Created by Andrew Voss
+ */
+
 #include <iostream>
 using namespace std;
 
@@ -11,7 +18,7 @@ bool checkPrime(int n)
     return true;
   if(n%2==0)
     return false;
-    
+
   for(i=1;i<=n;i++)
     if(n%i==0)
       count++;

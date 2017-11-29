@@ -1,7 +1,6 @@
 # Project Euler
 # Problem 1 - Multiples of 3 and 5
 # https://projecteuler.net/problem=1
-# Engineering 2 9.3.3
 # Created by Andrew Voss
 
 import time

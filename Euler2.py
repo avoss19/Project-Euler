@@ -1,4 +1,5 @@
-# Euler 2
+# Project Euler
+# Problem 2 - Even Fibonacci numbers
 # https://projecteuler.net/problem=2
 # Created by Andrew Voss
 

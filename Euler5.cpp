@@ -1,3 +1,10 @@
+/*
+ * Project Euler
+ * Problem 5 - Smallest multiple
+ * https://projecteuler.net/problem=5
+ * Created by Andrew Voss
+ */
+
 #include <iostream>
 #include <string>
 using namespace std;

@@ -1,8 +1,6 @@
 # Project Euler
 # Problem 17 - Number letter counts
 # https://projecteuler.net/problem=17
-# Engineering 2 9.3.3
-# version 2.0
 # Created by Andrew Voss
 
 # value that needs to be converted to words

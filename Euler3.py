@@ -1,4 +1,5 @@
-# Euler 3
+# Project Euler
+# Problem 3 - Largest prime factor
 # https://projecteuler.net/problem=3
 # Created by Andrew Voss
 

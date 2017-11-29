@@ -1,3 +1,10 @@
+/*
+ * Project Euler
+ * Problem 10 - Summation of primes
+ * https://projecteuler.net/problem=10
+ * Created by Andrew Voss
+ */
+
 #include <iostream>
 using namespace std;
 

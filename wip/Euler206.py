@@ -1,4 +1,5 @@
-# Euler 206
+# Project Euler
+# Problem 206 - Concealed Square
 # https://projecteuler.net/problem=206
 # Created by Andrew Voss
 

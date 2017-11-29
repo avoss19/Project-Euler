@@ -1,4 +1,5 @@
-# Euler 20
+# Project Euler
+# Problem 20 - Factorial digit sum
 # https://projecteuler.net/problem=20
 # Created by Andrew Voss
 

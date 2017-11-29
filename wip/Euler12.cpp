@@ -1,3 +1,10 @@
+/*
+ * Project Euler
+ * Problem 12 - Highly divisible triangular number
+ * https://projecteuler.net/problem=12
+ * Created by Andrew Voss
+ */
+
 #include <iostream>
 using namespace std;
 

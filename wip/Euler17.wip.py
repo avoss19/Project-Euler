@@ -1,6 +1,6 @@
-# Euler 17
+# Project Euler
+# Problem 17 - Number letter counts
 # https://projecteuler.net/problem=17
-# Updated Versoin
 # Created by Andrew Voss
 
 # wip
