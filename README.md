@@ -1,7 +1,7 @@
 # Project-Euler
 
 This is a project that is aimed at trying to solve all the Project Euler problems
-on ["projecteuler.net"](http://projecteuler.net)
+on [projecteuler.net](http://projecteuler.net)
 
 ## Getting Started
 
