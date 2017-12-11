@@ -25,12 +25,10 @@ Please review one of these guides or google one if you do on know how to use git
 <br />http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 <br />https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
-## Deployment
+## Program Info
 
-If your html is finished and ready to be posted online, please request a merge
-to master. Also place your files in a folder called your github username or
-full name. Also please **DO NOT PUSH TO MASTER WITHOUT PERMISION**. If you would
-like to push to master please contact the head of the project, Voss.
+Please add a couple of lines of comments to the begining of your program so we know 
+the creator and the problem you are solving.
 
 ## Orginization
 
