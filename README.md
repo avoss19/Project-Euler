@@ -28,7 +28,7 @@ Please review one of these guides or google one if you do on know how to use git
 ## Program Info
 
 Please add a couple of lines of comments to the begining of your program so we know 
-the creator and the problem you are solving.
+who the creator and the problem you are solving.
 
 ## Orginization
 
