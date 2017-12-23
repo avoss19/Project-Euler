@@ -23,19 +23,57 @@ grid = "\
 04 42 16 73 38 25 39 11 24 94 72 18 08 46 29 32 40 62 76 36 \
 20 69 36 41 72 30 23 88 34 62 99 69 82 67 59 85 74 04 36 16 \
 20 73 35 29 78 31 90 01 74 31 49 71 48 86 81 16 23 57 05 54 \
-01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48\
-"
+01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48"
+
 grid = grid.split(" ")
 grid = map(int, grid)
 
-def horizontalCheck(row):
-    x = row + 19
-    x = x + row
+def horizontalCheck():
     value = 0
-    for x in range(0,17):
+    for x in range(0,397): # range is out of 397 becuase it is a 20x20 grid (400 values) minus 3 to prevent an overflow
         temp = grid[x] * grid[x+1] * grid[x+2] * grid[x+3]
         if temp > value:
             value = temp
     return value
 
-print horizontalCheck(0)
+def verticalCheck():
+    value = 0
+    for x in range(0,340): # range is out of 340 becuase it is a 20x20 grid (400 values) minus 60 to prevent an overflow
+        temp = grid[x] * grid[x+20] * grid[x+40] * grid[x+60]
+        if temp > value:
+            value = temp
+    return value
+
+def diagonalRCheck(): # diagonal going right
+    value = 0
+    for x in range(0,337): # range is out of 337 becuase it is a 20x20 grid (400 values) minus 63 to prevent an overflow
+        temp = grid[x] * grid[x+21] * grid[x+42] * grid[x+63]
+        if temp > value:
+            value = temp
+    return value
+
+def diagonalLCheck(): # diagonal going left
+    value = 0
+    for x in range(0,343): # range is out of 337 becuase it is a 20x20 grid (400 values) minus 63 to prevent an overflow
+        temp = grid[x] * grid[x+19] * grid[x+38] * grid[x+57]
+        if temp > value:
+            value = temp
+    return value
+
+def main():
+    finalVal = 0
+    temp = horizontalCheck()
+    if temp > finalVal:
+        finalVal = temp
+    temp = verticalCheck()
+    if temp > finalVal:
+        finalVal = temp
+    temp = diagonalRCheck()
+    if temp > finalVal:
+        finalVal = temp
+    temp = diagonalLCheck()
+    if temp > finalVal:
+        finalVal = temp
+    print "Solution:", finalVal
+
+main()
