@@ -36,6 +36,12 @@ If you are writing a program in a language that needs to compiled please place a
 compiled verson in a folder corresponding to the opperating system. Also if the 
 program is not finished please put in the wip directory.
 
+## File naming
+
+Name your file the Euler then the number with 3 value places. It has to be named with 3
+value places to make them show in order due to github using ASCIIbetical order. </br>
+Ex. Euler001.py, Euler020.py
+
 ## Authors
 
 * **Andrew Voss** - *Public Repositories* - [avoss19](https://github.com/avoss19)
